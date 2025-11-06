@@ -9,6 +9,7 @@ li a{
 text-decoration: none; /*Remove o sublinhado */
 font-size: 20px; /* Tamanho da font */
 color: #ffffff;
+padding: 20px;
 }
 
 li{
@@ -17,11 +18,26 @@ li{
 
 #logo{
 
-    height: 100px; /*Altura */
-    width: 180px; /*Largura*/
+    height: 90px; /*Altura */
+    width: 140px; /*Largura*/
 }
 
 ul{
     display: flex; /*Indica a proprieade FlexBox */
     flex-direction: row; /*colocar os elementos na horizontal ou na vertical */
+
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.caixa-img-logo{
+
+    height: 90px;
+    width: 90px;
 }
