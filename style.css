@@ -61,6 +61,32 @@ ul{
    height: 500px;
    width: 800px;
    border-radius: 25px;
+   display: flex;
+   align-items: center;
 }
 
+
+.texto-banner{
+   font-size: 35px;
+   color: #ffffff;
+   
+}
+
+.btn-menu{
+height: 56px;
+width: 192px;
+border-radius: 50px;   /*arredondamento*/
+background-color: #333333; /*cor do botao*/
+color: #ffffff; /*cor da fonte*/
+font-weight: bold; /*deixar as letras grossas*/
+border: none;  /*remove a borda*/
+font-size: 19px;
+
+
+}
+
+
+.caixa-texto-banner{
+    width: 200px;
+}
   
