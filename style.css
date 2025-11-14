@@ -1,10 +1,13 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #1a1a1a; /*Mudar a cor de fundo*/
+    
 }
 
 
+body{
+    background-color: #1a1a1a; /*Mudar a cor de fundo*/
+}
 li a{
 text-decoration: none; /*Remove o sublinhado */
 font-size: 20px; /* Tamanho da font */
@@ -58,17 +61,20 @@ ul{
    background-image: url("./assets/banner.png");
    background-repeat: no-repeat;
    background-size: cover;
-   height: 500px;
-   width: 800px;
-   border-radius: 25px;
+   height: 700px;
+   width: 1000px;
+   border-radius: 15px;
    display: flex;
    align-items: center;
+   
 }
 
 
 .texto-banner{
-   font-size: 35px;
+   font-size: 25px;
    color: #ffffff;
+  display: flex;
+  
    
 }
 
@@ -81,12 +87,41 @@ color: #ffffff; /*cor da fonte*/
 font-weight: bold; /*deixar as letras grossas*/
 border: none;  /*remove a borda*/
 font-size: 19px;
+margin: 25px;
+
 
 
 }
 
 
 .caixa-texto-banner{
-    width: 200px;
+    width:175px;
+    padding: 35px; /*Espaçamento interno*/
+
+
+   
+
+
+
+
 }
+
+.section-center{
+   display: flex;
+   justify-content: center;
+
+
+} 
+.estrutura-titulo{
+justify-content: center;
+display: flex;
+
+
+}
+
+.titulo{
+    color: #ffffff;
+    font-size: 35px;
+}
+   
   
