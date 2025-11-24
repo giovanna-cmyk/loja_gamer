@@ -167,26 +167,21 @@ gap: 15px; /*separa os itens*/
 
 }
 
-.banner-dois{
-    width: 300px;
-    height: 450px;
+.banner-xbox{
+    background-image: url(assets/x-box.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
-    border-radius: 25px;
-    border-radius: 15px;
+    align-items: flex-start;
 }
+.texto-final{
 
-.texto-banner-dois{
-    font-size: 30px;
-    font-size: 25px;
-    color: #ffffff;
-}
-
-.btn-menu-dois{
-width: 145px;
-height: 40px;
-
-
+    display: flex;
+    flex-direction: column;
 }
 
 
