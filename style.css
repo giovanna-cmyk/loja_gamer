@@ -97,6 +97,8 @@ padding: 35px; /*Espaçamento interno*/
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titulo-primario{
@@ -168,20 +170,43 @@ gap: 15px; /*separa os itens*/
 }
 
 .banner-xbox{
-    background-image: url(assets/x-box.png);
+    background-image: url("assets/x-box.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
-    width: 600px;
+    height: 500px;
+    width: 900px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: start;
 }
-.texto-final{
+.caixa-footeer{
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 20px;
+    width: 850px;
+}
+
+.caixa-um{
+    font-size: 19px;
+    color: #4c544c;
+}
+
+.caixa-dois{
+    font-size: 15px;
+    color: #ffffff;
+
+
+}
+
+.caixa-footer-dois{
+    color: #ffffff;
+    margin: 45px;
+    font-size: 15px;
+    gap: 20px;
+    width: 850px;
+   
 }
 
 
